@@ -12,7 +12,7 @@ def index():
 def is_prime(x: str):
     try:
         x: float = float(x)
-        if x <= 3.5 and x >= 3.25:
+        if x <= 3.5 and x >= 3.0:
             return jsonify({
                 "result": True
             })

@@ -19,7 +19,7 @@ class ExamAppTestCase(unittest.TestCase):
         self.assertEqual(response.json["result"], True)
 
     def test_x_is_3dot1(self):
-        response = self.app.get('/is2honor/3.1')
+        response = self.app.get('/is2honor/2.9')
         self.assertEqual(response.status_code, 200)
         self.assertEqual(response.json["result"], False)
 
