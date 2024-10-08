@@ -59,7 +59,7 @@ pipeline{
                 label "VM-Test"
             }
             steps {
-                sh "rm -rf exam-api-robot"
+                sh "rm -rf exam2-api-robot"
                 sh "git clone https://github.com/KMITL-CE-2024-SDPX-Group3/exam2-api-robot"
             }
         }
